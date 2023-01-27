@@ -1,0 +1,15 @@
+#?config: Testing cfg
+
+[connection]
+apiUrl= https://www.example.org/example
+delay= 1; wait_max= 10
+authKey= %./test_authkey
+
+
+[export]
+directory= $HOME/db
+format= epub  # Ebook format
+
+[logging]
+logLevel= debug,info,fatal,hello
+logLevelNum= debug:0,info:1,fatal:4

@@ -1,0 +1,12 @@
+  # Testing cfg
+ ====================================================================
+  connection  apiUrl       https://www.example.org/example           
+  connection  delay        1                                         
+  connection  wait_max     10                                        
+  connection  authKey      AUTH_KEY_TEST                             
+  export      directory    /home/mgrunwal/db                         
+  export      format       epub                                      
+  logging     logLevel     ['debug', 'info', 'fatal', 'hello']       
+  logging     logLevelNum  {'debug': '0', 'info': '1', 'fatal': '4'} 
+ ====================================================================
+
